@@ -13,3 +13,10 @@ I started working with the wroom module and had to also add a battery charging c
 ## Session 2
 
 I started the payout part of the pcb which was fun at first but i found out that the cameras traces were taking all of the pcb so i had to make the size bigger. Then after routing everything up and length matching the camera traces, i found out that i had forgot to route 1 trace of the camera and it turns out that was the longest trace of the camera so i deleted everything and have started the layout again.
+
+
+## Session 3
+
+I started the placement and have been doint it since the last 30 minutes and completed it. Then i started routing the camera and didnt forget the longest trace this time and it looked BEAUTIFUL seeing those curvy/wavy lines or whatever you call them. I then completed the whole PCBs routing and left the micro sd card for the last as it also needed length matching.
+
+![image](https://cdn.hackclub.com/01a1b742-f8f7-7c26-899e-45a41d2d2086/paste-1794075979935.png)
