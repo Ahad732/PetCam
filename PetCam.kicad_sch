@@ -415,6 +415,553 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Micro_SD_Card"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -16.51 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card"
+				(at 16.51 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 29.21 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Micro SD Card Socket"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
+						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -9.525)
+					(end -5.08 -10.795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_1_1"
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -2066,6 +2613,207 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3860,6 +4608,18 @@
 		(uuid "1a32980c-9c31-45b4-a91f-ee3076a611fb")
 	)
 	(rectangle
+		(start 285.75 241.3)
+		(end 361.315 297.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8986a833-a66c-49fe-a6ef-3b78ffe565ac")
+	)
+	(rectangle
 		(start 190.5 144.78)
 		(end 266.7 226.06)
 		(stroke
@@ -3882,6 +4642,30 @@
 			(type none)
 		)
 		(uuid "dc639ec2-6608-4b92-a5d3-b2c9d8d94399")
+	)
+	(rectangle
+		(start 176.53 264.16)
+		(end 267.97 346.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ecd64d2b-a757-4015-bafe-31d7505e3f56")
+	)
+	(rectangle
+		(start 82.55 299.72)
+		(end 142.24 341.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ed8ba7f0-8f0c-4f94-a0d3-90faffae0df0")
 	)
 	(text "Camera\n"
 		(exclude_from_sim no)
@@ -3912,6 +4696,16 @@
 			)
 		)
 		(uuid "b952532f-06e9-471c-a0dd-1455cede3ff7")
+	)
+	(text "RECORDING START STOP"
+		(exclude_from_sim no)
+		(at 130.556 340.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdaaea20-1ff1-492a-b190-00d84e9f0f27")
 	)
 	(text "USB-C\n"
 		(exclude_from_sim no)
@@ -3948,6 +4742,30 @@
 		(uuid "2867fd96-0be3-4bb6-bf4d-ff02ba6fef16")
 	)
 	(junction
+		(at 190.5 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f58af0-ad28-4e0e-87fe-024ac9965fd7")
+	)
+	(junction
+		(at 190.5 311.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3103e212-00f6-4b9e-b7c8-d53d4b7a6e67")
+	)
+	(junction
+		(at 233.68 336.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f83d79b-b0fd-421d-9473-9507bfb3cffc")
+	)
+	(junction
+		(at 127 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "801551a7-c874-4a38-ae6c-2395b4cbe755")
+	)
+	(junction
 		(at 134.62 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3960,10 +4778,28 @@
 		(uuid "9c65f249-7192-4f33-a462-7773b33b1cff")
 	)
 	(junction
+		(at 190.5 308.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ada91b05-ec52-4742-aa5b-c962fe531045")
+	)
+	(junction
+		(at 190.5 300.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adaed847-c8f2-434b-b8fb-be6810be179b")
+	)
+	(junction
 		(at 119.38 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb444ecc-e191-4a56-9ba5-f8ff63567145")
+	)
+	(junction
+		(at 190.5 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c76578af-06cd-4910-9797-33be09d92d4f")
 	)
 	(junction
 		(at 209.55 208.28)
@@ -3993,6 +4829,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 331.47) (xy 241.3 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b55cd96-7ac9-49a1-a046-c8c207ab7549")
+	)
+	(wire
+		(pts
+			(xy 118.11 322.58) (xy 132.08 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d77d5fe-d9a5-4751-91e3-70aa96c7c417")
+	)
+	(wire
+		(pts
 			(xy 78.74 158.75) (xy 82.55 158.75)
 		)
 		(stroke
@@ -4003,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 280.67) (xy 234.95 280.67)
+			(xy 236.22 290.83) (xy 232.41 290.83)
 		)
 		(stroke
 			(width 0)
@@ -4033,6 +4889,76 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 322.58) (xy 107.95 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1e21a8-e636-4d2c-b515-df8069540823")
+	)
+	(wire
+		(pts
+			(xy 199.39 308.61) (xy 190.5 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f9b6b1-deed-41df-919f-bd2153bf6dec")
+	)
+	(wire
+		(pts
+			(xy 190.5 295.91) (xy 207.01 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250bfc28-f613-49ba-8bcf-2e800a4baa9f")
+	)
+	(wire
+		(pts
+			(xy 190.5 300.99) (xy 190.5 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bcef3b-9376-4950-b7a3-acf8960ad701")
+	)
+	(wire
+		(pts
+			(xy 290.83 274.32) (xy 304.8 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb50e97-1c42-4e27-afbd-9ba8a4e736df")
+	)
+	(wire
+		(pts
+			(xy 190.5 308.61) (xy 190.5 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e24c8da-856a-4d82-ab0c-1d585c33a55b")
+	)
+	(wire
+		(pts
+			(xy 127 153.67) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9d166e-21b5-4692-b3f9-261712cffce4")
+	)
+	(wire
+		(pts
 			(xy 107.95 152.4) (xy 107.95 158.75)
 		)
 		(stroke
@@ -4050,6 +4976,26 @@
 			(type default)
 		)
 		(uuid "3552e9f8-f9c4-40b1-a74e-931f860f84e2")
+	)
+	(wire
+		(pts
+			(xy 198.12 285.75) (xy 198.12 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c49e9e8-12f7-4266-8896-2f16d7033ce0")
+	)
+	(wire
+		(pts
+			(xy 93.98 320.04) (xy 93.98 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d304b4a-7852-488c-9f71-02872b845b6e")
 	)
 	(wire
 		(pts
@@ -4073,7 +5019,27 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 152.4) (xy 134.62 152.4)
+			(xy 190.5 298.45) (xy 190.5 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43add4dd-fbf8-4f78-8316-0d649324e27a")
+	)
+	(wire
+		(pts
+			(xy 190.5 295.91) (xy 190.5 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4413adb1-2e42-431c-b295-3474f1a99e5d")
+	)
+	(wire
+		(pts
+			(xy 119.38 152.4) (xy 127 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4100,6 +5066,26 @@
 			(type default)
 		)
 		(uuid "4834fe7c-0179-48ee-9978-72b853d96476")
+	)
+	(wire
+		(pts
+			(xy 304.8 269.24) (xy 290.83 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae7f806-19f8-4482-a67e-ae6fc95bb957")
+	)
+	(wire
+		(pts
+			(xy 132.08 322.58) (xy 132.08 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f65d929-a335-42ca-a94d-034f5d05994a")
 	)
 	(wire
 		(pts
@@ -4133,6 +5119,36 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 331.47) (xy 233.68 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616a5ecd-b36c-4536-abf7-6f6d3c516acb")
+	)
+	(wire
+		(pts
+			(xy 233.68 336.55) (xy 241.3 336.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c40cb0-b1fc-4a4b-aa58-85f80fd0befc")
+	)
+	(wire
+		(pts
+			(xy 119.38 161.29) (xy 127 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7155f8c6-7751-49ac-bf9a-cebaaa1af0aa")
+	)
+	(wire
+		(pts
 			(xy 118.11 226.06) (xy 120.65 226.06)
 		)
 		(stroke
@@ -4153,6 +5169,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 290.83) (xy 190.5 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf2a630-fec4-4d68-8d84-c8e58418b32b")
+	)
+	(wire
+		(pts
 			(xy 107.95 158.75) (xy 106.68 158.75)
 		)
 		(stroke
@@ -4160,6 +5186,16 @@
 			(type default)
 		)
 		(uuid "8684856b-9385-417a-8672-1a409d153cf9")
+	)
+	(wire
+		(pts
+			(xy 246.38 303.53) (xy 246.38 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bef18d2-d3c7-483a-b68f-73075013d2e7")
 	)
 	(wire
 		(pts
@@ -4183,6 +5219,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 152.4) (xy 134.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44567b2-d0e9-4310-b804-552e80504f99")
+	)
+	(wire
+		(pts
+			(xy 190.5 290.83) (xy 190.5 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fbb629-a970-41fa-9eb9-904e8f553b39")
+	)
+	(wire
+		(pts
 			(xy 194.31 213.36) (xy 194.31 217.17)
 		)
 		(stroke
@@ -4193,6 +5249,26 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 311.15) (xy 190.5 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab941d19-2139-4613-9c66-3057255a494a")
+	)
+	(wire
+		(pts
+			(xy 233.68 336.55) (xy 233.68 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac43d736-c030-4df8-a4e6-8e8616cf6ef6")
+	)
+	(wire
+		(pts
 			(xy 82.55 158.75) (xy 82.55 161.29)
 		)
 		(stroke
@@ -4200,6 +5276,66 @@
 			(type default)
 		)
 		(uuid "ac7ef211-4385-4ecb-9ca2-153ce73275ae")
+	)
+	(wire
+		(pts
+			(xy 207.01 303.53) (xy 198.12 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed4f9f2-b5dc-47f0-aa6a-513a42cb54e4")
+	)
+	(wire
+		(pts
+			(xy 190.5 298.45) (xy 207.01 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d34a90-f91e-4f7a-86c5-54cb6b1691cc")
+	)
+	(wire
+		(pts
+			(xy 107.95 322.58) (xy 107.95 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c273ffc6-ea55-466d-a6f2-8d5441e99360")
+	)
+	(wire
+		(pts
+			(xy 290.83 283.21) (xy 290.83 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6471126-a914-4a20-bf8d-165367bddfa7")
+	)
+	(wire
+		(pts
+			(xy 240.03 303.53) (xy 246.38 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca3c3d9-c3fc-4072-a824-8546ae9c2d24")
+	)
+	(wire
+		(pts
+			(xy 93.98 313.69) (xy 95.25 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccca75ec-6b4d-4baf-9dc7-6c7252eaf967")
 	)
 	(wire
 		(pts
@@ -4250,16 +5386,6 @@
 			(type default)
 		)
 		(uuid "ddec0f29-4227-44dc-8f5c-233b16d9da64")
-	)
-	(wire
-		(pts
-			(xy 119.38 161.29) (xy 127 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea43718-18b8-42ea-8ffa-165a641d82b2")
 	)
 	(wire
 		(pts
@@ -4333,6 +5459,26 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 255.27) (xy 290.83 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e2d0d4-5d04-47b7-b3e0-c226fcd067ac")
+	)
+	(wire
+		(pts
+			(xy 190.5 300.99) (xy 207.01 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7006fcf-a39c-4900-a679-2a9ca5fd1463")
+	)
+	(wire
+		(pts
 			(xy 199.39 213.36) (xy 194.31 213.36)
 		)
 		(stroke
@@ -4350,6 +5496,36 @@
 			(type default)
 		)
 		(uuid "ff49dcaf-5998-45f4-bb95-007e6b800b16")
+	)
+	(wire
+		(pts
+			(xy 190.5 311.15) (xy 190.5 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6a0c7d-37a7-4686-9f3c-88c0f52f8958")
+	)
+	(label "START_BTN"
+		(at 255.27 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01f8e2d1-e013-4c7f-8fbe-f24ebf209e5d")
+	)
+	(label "LED_PWR"
+		(at 255.27 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02022bc3-5585-4283-b52d-94e94fd3da2a")
 	)
 	(label "D9"
 		(at 255.27 168.91 0)
@@ -4421,6 +5597,26 @@
 		)
 		(uuid "264542f1-17d3-4b5d-915a-36ec54148514")
 	)
+	(label "SD_CMD"
+		(at 304.8 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "269984d1-49ee-40bf-a59c-f07c43f8f170")
+	)
+	(label "BAT"
+		(at 255.27 298.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cdd87c1-47b4-42bf-96fa-c4d670d2f340")
+	)
 	(label "D3"
 		(at 359.41 170.18 180)
 		(effects
@@ -4441,6 +5637,16 @@
 		)
 		(uuid "37ee3e4b-ba5b-4f5e-b90c-d77d3a2aebed")
 	)
+	(label "PGOOD"
+		(at 232.41 308.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38234886-8f47-4225-b299-1c5d1864de30")
+	)
 	(label "RST"
 		(at 359.41 172.72 180)
 		(effects
@@ -4451,6 +5657,16 @@
 		)
 		(uuid "38b633a7-2749-4511-905d-6561a04019ef")
 	)
+	(label "DAT1"
+		(at 255.27 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39d427c7-cb55-4cf3-8b32-6fd72a0798f7")
+	)
 	(label "D7"
 		(at 359.41 165.1 180)
 		(effects
@@ -4460,6 +5676,26 @@
 			(justify right bottom)
 		)
 		(uuid "3e79e37d-f1c0-4a29-bc6e-ddccf9857969")
+	)
+	(label "BAT"
+		(at 232.41 298.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46867485-381e-4c94-bc2b-f40a78319b27")
+	)
+	(label "PGOOD"
+		(at 218.44 341.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c67cc63-83b8-4492-b3b0-a257daacdd80")
 	)
 	(label "OUT"
 		(at 78.74 158.75 0)
@@ -4501,6 +5737,26 @@
 		)
 		(uuid "5ad6d844-fbad-48a0-8f16-b40226fcb027")
 	)
+	(label "DAT2"
+		(at 304.8 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b1165c6-54c6-425e-8fea-cce8c1eb3461")
+	)
+	(label "CHG"
+		(at 232.41 311.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bb12459-738e-4950-920f-b6bf6e27478a")
+	)
 	(label "D3"
 		(at 224.79 199.39 180)
 		(effects
@@ -4510,6 +5766,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e5e0d6f-b41e-4df9-a8ce-956a881d4759")
+	)
+	(label "DAT3"
+		(at 255.27 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ddb9e88-190c-4c13-bd98-0e77fe246abc")
 	)
 	(label "XCLK"
 		(at 372.11 160.02 0)
@@ -4551,6 +5817,16 @@
 		)
 		(uuid "858c859f-3d6e-464c-80e9-c1be82f16b71")
 	)
+	(label "SD_CLK"
+		(at 304.8 271.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86588f19-76de-4062-9836-8d0496ccd2ee")
+	)
 	(label "SIOD"
 		(at 372.11 154.94 0)
 		(effects
@@ -4561,6 +5837,16 @@
 		)
 		(uuid "886b2cca-5973-4220-8ba2-35ea248f64d2")
 	)
+	(label "SD_CMD"
+		(at 224.79 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b78674c-193b-4bd3-88c4-b8bf4ceefa00")
+	)
 	(label "D4"
 		(at 224.79 196.85 180)
 		(effects
@@ -4570,6 +5856,26 @@
 			(justify right bottom)
 		)
 		(uuid "9015f29e-61b9-466c-86c1-20ac3da03980")
+	)
+	(label "LED_PWR"
+		(at 102.87 313.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91fa4ebd-d7ea-4d36-9268-16fb5bca66c1")
+	)
+	(label "CHG"
+		(at 218.44 331.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92587eb2-8f74-4226-950b-b4dd752ac1dc")
 	)
 	(label "SIOD"
 		(at 224.79 181.61 180)
@@ -4611,6 +5917,16 @@
 		)
 		(uuid "a82cf569-02dc-4100-8681-ed7403f63b31")
 	)
+	(label "DAT2"
+		(at 255.27 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abd876c6-955e-4acd-b76d-22a7facc1146")
+	)
 	(label "HREF"
 		(at 224.79 186.69 180)
 		(effects
@@ -4651,6 +5967,16 @@
 		)
 		(uuid "bfb7fd06-f4cf-47c6-b9d2-ebf39bfe6022")
 	)
+	(label "DAT1"
+		(at 304.8 279.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfd29892-511d-47c1-b3d7-f7ae8a6a7739")
+	)
 	(label "PWDN"
 		(at 255.27 179.07 0)
 		(effects
@@ -4662,7 +5988,7 @@
 		(uuid "c32e4115-d991-43df-b39b-8b3ae9370e9a")
 	)
 	(label "OUT"
-		(at 238.76 280.67 180)
+		(at 236.22 290.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4670,6 +5996,16 @@
 			(justify right bottom)
 		)
 		(uuid "c52d8967-7d9d-4549-a449-5175296edd2a")
+	)
+	(label "START_BTN"
+		(at 118.11 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6ec51c2-00b9-4174-b8cc-fba2659f67f8")
 	)
 	(label "RST"
 		(at 224.79 204.47 180)
@@ -4680,6 +6016,16 @@
 			(justify right bottom)
 		)
 		(uuid "c9318fb0-c22e-4e8c-816f-cff2fbfb6b28")
+	)
+	(label "DAT0"
+		(at 304.8 276.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9605a05-11d4-42b2-a703-823aadc2321b")
 	)
 	(label "XCLK"
 		(at 224.79 209.55 180)
@@ -4711,6 +6057,16 @@
 		)
 		(uuid "e4869274-fc31-4a67-9e7b-d18e6e44478d")
 	)
+	(label "DAT0"
+		(at 255.27 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb714fc0-4930-424f-8c6f-9e5455c366c4")
+	)
 	(label "DATA+"
 		(at 118.11 246.38 0)
 		(effects
@@ -4720,6 +6076,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed478b35-6ef1-4c3f-b690-c1bd3a46f3ab")
+	)
+	(label "SD_CLK"
+		(at 255.27 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2c4194e-6974-4cc2-989b-5f83311056b0")
 	)
 	(label "D8"
 		(at 255.27 171.45 0)
@@ -4750,6 +6116,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc2b5c79-5b6c-4693-bc65-bcf7687d9244")
+	)
+	(label "DAT3"
+		(at 304.8 264.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffe602cc-49fa-472a-9a16-f33220b3855b")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -5081,6 +6457,84 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 290.83 255.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0ec6ce-8208-483a-912f-ad040d1d7e0e")
+		(property "Reference" "#PWR018"
+			(at 290.83 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 290.83 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 290.83 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87ba701e-bc42-4381-81e6-5ef1e5fde59b")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 240.03 158.75 0)
 		(unit 1)
 		(body_style 1)
@@ -5363,7 +6817,7 @@
 	)
 	(symbol
 		(lib_id "Battery_Management:BQ24072RGT")
-		(at 222.25 290.83 0)
+		(at 219.71 300.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5374,7 +6828,7 @@
 		(fields_autoplaced yes)
 		(uuid "21d5d700-f966-4e89-a6d8-a5ff5d60e379")
 		(property "Reference" "U2"
-			(at 224.3933 273.05 0)
+			(at 221.8533 283.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5385,7 +6839,7 @@
 			)
 		)
 		(property "Value" "BQ24072RGT"
-			(at 224.3933 275.59 0)
+			(at 221.8533 285.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5396,7 +6850,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 229.87 304.8 0)
+			(at 227.33 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +6862,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24072.pdf"
-			(at 229.87 285.75 0)
+			(at 227.33 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +6873,7 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
-			(at 222.25 290.83 0)
+			(at 219.71 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5805,7 +7259,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 222.25 275.59 0)
+		(at 219.71 285.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5816,7 +7270,7 @@
 		(fields_autoplaced yes)
 		(uuid "49b08ad3-0ec6-4715-b474-2deb321bd2db")
 		(property "Reference" "#PWR015"
-			(at 222.25 279.4 0)
+			(at 219.71 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5827,7 +7281,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 222.25 270.51 0)
+			(at 219.71 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5837,7 +7291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 275.59 0)
+			(at 219.71 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5848,7 +7302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 275.59 0)
+			(at 219.71 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,7 +7313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 222.25 275.59 0)
+			(at 219.71 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,6 +7330,254 @@
 			(project "PetCam"
 				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 222.25 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b5fde35-c2ff-467b-aba6-5031a4cab71d")
+		(property "Reference" "D1"
+			(at 227.33 333.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 223.266 333.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 222.25 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 222.25 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a4282ac-0d41-4dac-a617-0065bf13ab61")
+		)
+		(pin "1"
+			(uuid "1e99979d-c596-4a79-ac1d-30d9da2243c6")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 311.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e529e34-e34e-47b7-b9d8-2dc61470e591")
+		(property "Reference" "R9"
+			(at 203.2 315.214 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600"
+			(at 203.2 313.182 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 203.2 309.372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cd375fb-8230-4ff7-b029-3f6ac07a0c2f")
+		)
+		(pin "2"
+			(uuid "34fe8570-bc33-4780-a337-b877556d8751")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 308.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "508950f2-67e6-498e-8f4e-d61c2722e5ef")
+		(property "Reference" "R8"
+			(at 203.2 304.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.2 306.578 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 203.2 310.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "730c38d3-a939-4bcc-84c1-3abaaa1ba02b")
+		)
+		(pin "2"
+			(uuid "1dac0ca9-6549-4ac1-b117-0b680fa4fc8f")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6171,6 +7873,162 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 190.5 313.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "616ba339-ce7a-4954-ad2b-32d6ef2f301f")
+		(property "Reference" "#PWR023"
+			(at 190.5 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4aafd5f6-4204-4a54-9191-8027616667fa")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 326.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69ff7adf-dd78-45b3-a8f7-da09c7b6ec89")
+		(property "Reference" "#PWR022"
+			(at 107.95 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 331.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbd8b798-c825-467c-ad80-f40f8764d529")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 102.87 264.16 0)
 		(unit 1)
 		(body_style 1)
@@ -6326,6 +8184,240 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 316.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7551eb15-ce5e-439c-87d3-89cc3fb0edcf")
+		(property "Reference" "#PWR020"
+			(at 219.71 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 321.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5dab6b2-c2e6-4776-9d72-8a0f993831d4")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 313.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80aef97a-682d-4a5b-8200-78153d9aac98")
+		(property "Reference" "#PWR025"
+			(at 246.38 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0f7b40f-cc40-4fb7-9f5f-94861c989570")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 198.12 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817c376a-580a-4597-bf63-2d4a6ee55a9e")
+		(property "Reference" "#PWR024"
+			(at 198.12 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 198.12 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 198.12 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cac8635c-305e-4df2-9a75-d61790eb0b11")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 171.45 0)
 		(unit 1)
@@ -6401,6 +8493,85 @@
 			(project "PetCam"
 				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 250.19 298.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "880429f1-d5c3-424d-bc8a-236e2e4b6adc")
+		(property "Reference" "J4"
+			(at 252.984 294.132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 253.238 295.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 250.19 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 250.19 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7539e8c7-1fb3-4365-bef8-7ef7f8d55d2c")
+		)
+		(pin "2"
+			(uuid "3033861e-a9ec-4f68-a3af-17f82e1fecdb")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6485,6 +8656,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 229.87 331.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a14a530-f16f-43a3-8deb-3b29a304f99f")
+		(property "Reference" "R10"
+			(at 229.87 327.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 229.87 329.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 229.87 333.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7da42d91-f69d-427f-9ba9-31243a49f51d")
+		)
+		(pin "2"
+			(uuid "a466a461-8fe0-4193-870f-b643801b06b0")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 347.98 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac056a2-848d-4fc8-baa3-330884ebcde3")
+		(property "Reference" "#PWR016"
+			(at 347.98 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 289.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 347.98 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ba3f292-a183-4f05-9370-065d4cd5c4dd")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 236.22 0)
 		(unit 1)
@@ -6557,6 +8885,186 @@
 			(project "PetCam"
 				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 341.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92c2cc23-e5f0-4fe8-a202-3b5496f95435")
+		(property "Reference" "R11"
+			(at 229.87 337.566 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 229.87 339.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 229.87 343.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "261b2d27-2e58-4f04-a08d-190a8ae59c8f")
+		)
+		(pin "2"
+			(uuid "247b2ffb-efcf-458c-ae17-2286014d13f6")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card")
+		(at 327.66 269.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a21f7e05-e9a1-4707-9689-be3ff3f770c8")
+		(property "Reference" "J3"
+			(at 328.295 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 328.295 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
+			(at 356.87 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+			(at 327.66 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro SD Card Socket"
+			(at 327.66 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "32237b6e-b587-4c38-95cb-5492fcfc18ca")
+		)
+		(pin "3"
+			(uuid "62aee24a-7492-4a31-b5cf-a941bc82c55c")
+		)
+		(pin "SH"
+			(uuid "206396df-a505-447b-8acc-b56c4302938f")
+		)
+		(pin "1"
+			(uuid "340f6dab-cfbd-499b-9d52-4793d6e693d4")
+		)
+		(pin "8"
+			(uuid "c371184e-652a-4020-b14d-601604bb6f77")
+		)
+		(pin "7"
+			(uuid "767d3d39-beb8-4963-a753-eba0ce6a814b")
+		)
+		(pin "5"
+			(uuid "1e553596-3301-4657-a3b4-251667695126")
+		)
+		(pin "2"
+			(uuid "29576584-8a8d-43ff-ab6b-7d57dc832e3a")
+		)
+		(pin "4"
+			(uuid "916f06ca-47ad-42fc-9635-adf8c92deb33")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6714,6 +9222,244 @@
 			(project "PetCam"
 				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 241.3 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adbb6258-06d9-4339-93e1-191e23b8c7b5")
+		(property "Reference" "#PWR026"
+			(at 241.3 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 241.3 326.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 241.3 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef73435f-d150-473c-b702-4f3da55d797c")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 113.03 320.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1207d2a-5167-4147-84d4-fef4e1a2a34c")
+		(property "Reference" "J5"
+			(at 115.824 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 113.665 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 113.03 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 113.03 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0388a649-1cac-40a3-8a66-05d44be2a6de")
+		)
+		(pin "2"
+			(uuid "0fcec24e-c951-4a9b-ad69-06c23a2104d7")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 88.9 320.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2fa9338-9fbf-4bd7-b01c-2042ed8c8661")
+		(property "Reference" "J6"
+			(at 91.694 314.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 89.535 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 88.9 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 88.9 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb69c685-dbb7-4f2f-a693-8c51f25350db")
+		)
+		(pin "2"
+			(uuid "26c816a2-20ce-41be-bebf-07ff23a74651")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6919,6 +9665,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 290.83 283.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d929b389-ac47-48a2-822d-5b080fb715de")
+		(property "Reference" "#PWR017"
+			(at 290.83 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 288.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "caf9ea33-f946-45e6-8632-e0ffaeddeb61")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 111.76 157.48 0)
 		(unit 1)
@@ -7079,6 +9903,253 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 132.08 326.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc6658db-d73c-4672-b784-991a077de05a")
+		(property "Reference" "#PWR021"
+			(at 132.08 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 331.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b79d634-9827-49a6-9033-6b326b2c3cac")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 222.25 341.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e08b1d21-5830-4ddf-98aa-a448aadae9e3")
+		(property "Reference" "D2"
+			(at 228.092 344.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 223.012 344.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 222.25 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 222.25 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 222.25 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83414e4f-2af8-4575-980f-5266d89baef6")
+		)
+		(pin "1"
+			(uuid "79aa3c37-74b2-45f9-890c-0c9cbf966c7f")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 236.22 303.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e23ccdd6-18de-4ce0-b8e2-2877f0340185")
+		(property "Reference" "R7"
+			(at 236.22 299.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 236.22 301.498 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 236.22 305.308 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce4edc93-a06c-4106-ab78-b428df130096")
+		)
+		(pin "2"
+			(uuid "cdaf9061-a704-47b8-92e1-b85953bac814")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 95.25 264.16 0)
 		(unit 1)
 		(body_style 1)
@@ -7150,6 +10221,84 @@
 			(project "PetCam"
 				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebe7866f-7795-485d-ad0a-4f4982252825")
+		(property "Reference" "#PWR019"
+			(at 255.27 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cb199d4-d97d-4bbd-a4dd-abcaed470972")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7306,6 +10455,86 @@
 			(project "PetCam"
 				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 313.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc8e9bc4-0c08-4b3c-b196-7b1b6342aec0")
+		(property "Reference" "R6"
+			(at 99.06 307.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 99.06 309.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 315.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f441aa28-7318-4cd3-ae38-c82c5e2a9ab0")
+		)
+		(pin "1"
+			(uuid "ef0abc69-7662-4eb8-8d45-dcd1eff25ddd")
+		)
+		(instances
+			(project "PetCam"
+				(path "/e0c9fbde-71b7-49e2-aeda-cbc66c4114eb"
+					(reference "R6")
 					(unit 1)
 				)
 			)
