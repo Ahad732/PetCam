@@ -1,2 +1,4 @@
 .vscode
 petcam-sw/
+Hardware/~*
+Hardware/fabrication-toolkit-options.json
