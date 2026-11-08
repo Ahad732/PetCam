@@ -1,0 +1,25 @@
+Designator,Footprint,Value,Quantity,Price,Link
+"C1, C2",402,10u,50,0.93,https://www.lcsc.com/product-detail/C23692971.html
+C3,402,0.1u,100,0.15,https://www.lcsc.com/product-detail/C54824947.html
+D1,402,RED,50,0.4,https://www.lcsc.com/product-detail/C25503345.html
+D2,402,GREEN,50,0.45,https://www.lcsc.com/product-detail/C965793.html
+J1,PinSocket_2x09_P2.54mm_Vertical,Camera,1,41.41,https://robu.in/product/waveshare-ov5640-camera-board-c-5-megapixel-2592x1944-auto-focusing-onboard-flash/
+J2,USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A,USB_C_Receptacle_USB2.0_16P,10,0.53,https://www.lcsc.com/product-detail/C42400252.html
+J3,microSD_HC_Molex_104031-0811,Micro_SD_Card,3,2.05,https://www.lcsc.com/product-detail/C585350.html
+J4,Battery,2500 mah,2,13.4,https://robu.in/product/wly104050-2500mah-3-7v-single-cell-rechargeable-lipo-battery/
+"J5, J6",PinSocket_1x02_P2.54mm_Vertical,Arcade Button,2,3.17,https://robu.in/product/24mm-led-arcade-button-green/
+L1,L_Vishay_IFSC-1515AH_4x4x1.8mm,2.2u,20,0.62,https://www.lcsc.com/product-detail/C55096218.html
+"R1, R2",402,5.1k,100,0.06,https://www.lcsc.com/product-detail/C54920813.html
+"R10, R11, R8",402,1k,100,0.07,https://www.lcsc.com/product-detail/C49652832.html
+"R3, R7",402,10k,100,0.08,https://www.lcsc.com/product-detail/C49652937.html
+R4,402,430k,100,0.05,https://www.lcsc.com/product-detail/C54920733.html
+R5,402,100k,100,0.05,https://www.lcsc.com/product-detail/C54920733.html
+R6,402,100,100,0.06,https://www.lcsc.com/product-detail/C54920716.html
+R9,402,600,100,0.08,https://www.lcsc.com/product-detail/C49656019.html
+SW1,SW_SPST_PTS810,SW_Push,5,1.84,https://www.lcsc.com/product-detail/C221895.html
+U1,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1,2,10.18,https://www.lcsc.com/product-detail/C2913201.html
+U2,VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm,BQ24072RGT,3,3.18,https://www.lcsc.com/product-detail/C140288.html
+U3,SOT-23-5,TLV62568DBV,5,0.38,https://www.lcsc.com/product-detail/C163219.html
+,,PCB + Stencil + Shipping,,16.52,
+,,Parts Shipping,,5.52,
+,,Total,,101.18,
