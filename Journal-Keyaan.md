@@ -14,3 +14,15 @@ I also exported the PCB from the KiCAD PCB editor and then put it into Onshape!
 
 ## Session 2
 
+I am trying to model a teddy bear-like shape, because that seems really cool for this kind of enclosure!  
+I've been trying to make a small cute teddy bear like architecture, but i am failing miserably at it, so i am gonna try some other form of doing it, this is what it looks like:  
+![image](https://cdn.hackclub.com/01a1bbb7-d93c-7e39-a237-6db9ade86a7d/paste-1794150747681.png)  
+
+Okay so i did something something, and made this sleek case, it took a lot of efforts to make this, but yeah, i actualy made it!!  
+![case](https://cdn.hackclub.com/01a1bc03-6188-7386-bebe-82e6a2260924/paste-1794155698048.png)  
+
+Well that is all the work that i did!  
+every time i do CAD i realise how bad i am at CAD, it makes me sad sometimes ://  
+
+Anyways, I wrote the readme by hand and also screenshotted and added the images, whoops, gotta add the BOM too!
+Added the BOM, generated latest prod files, and i am done with this project!!
